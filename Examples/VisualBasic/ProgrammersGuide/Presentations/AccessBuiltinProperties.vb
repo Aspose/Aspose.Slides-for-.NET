@@ -14,6 +14,7 @@ Imports Aspose.Slides
 Namespace VisualBasic.Presentations
     Public Class AccessBuiltinProperties
         Public Shared Sub Run()
+
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Presentations()
 
