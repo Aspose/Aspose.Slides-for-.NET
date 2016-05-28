@@ -4,35 +4,27 @@
 'install it and then add its reference to this project. For any issues, questions or suggestions 
 'please feel free to contact us using http://www.aspose.com/community/forums/default.aspx
 
+Imports System
+Imports System.IO
 Imports Aspose.Slides
 Imports Aspose.Slides.Export
 
 Namespace VisualBasic.Presentations
-    Public Class ConvertPDFwithCustomOptions
+    Public Class ConvertNotesSlideViewToPDF
         Public Shared Sub Run()
-            ' The path to the documents directory.
+
+            ' Loading a presentation
             Dim dataDir As String = RunExamples.GetDataDir_Presentations()
 
             ' Instantiate a Presentation object that represents a presentation file
-            Dim presentation As New Presentation(dataDir & "ConvertToPDF.pptx")
+            Using presentation As Presentation = New Presentation(dataDir + "NotesFile.pptx")
 
-            ' Instantiate the PdfOptions class
-            Dim pdfOptions As New Export.PdfOptions()
+                ' Saving the presentation to PDF notes
+                presentation.Save(dataDir + "Pdf_Notes.pdf", SaveFormat.PdfNotes)
 
-            ' Set Jpeg Quality
-            pdfOptions.JpegQuality = 90
+            End Using
 
-            ' Define behavior for metafiles
-            pdfOptions.SaveMetafilesAsPng = True
 
-            ' Set Text Compression level
-            pdfOptions.TextCompression = Export.PdfTextCompression.Flate
-
-            ' Define the PDF standard
-            pdfOptions.Compliance = Export.PdfCompliance.Pdf15
-
-            ' Save the presentation to PDF with specified options
-            presentation.Save(dataDir & "Custom_Option_Pdf_Conversion.pdf", SaveFormat.Pdf, pdfOptions)
         End Sub
     End Class
 End Namespace

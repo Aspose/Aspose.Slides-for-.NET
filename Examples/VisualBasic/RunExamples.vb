@@ -41,7 +41,7 @@ Namespace VisualBasic
             '// =====================================================
             '// =====================================================
 
-            'AccessBuiltinProperties.Run()
+            AccessBuiltinProperties.Run()
             'AccessModifyingProperties.Run()
             'AccessOpenDoc.Run()
             'AccessProperties.Run()
@@ -70,11 +70,12 @@ Namespace VisualBasic
             'SaveToStream.Run()
             'SaveWithPassword.Run()
             'SaveAsPredefinedViewType.Run()
-
             'GetFileFormat.Run()
             'ExportMediaFilestohtml.Run()
             'AddCustomDocumentProperties.Run()
-            'CreateNewPresentation.Run()
+            'ConvetToSWF.Run()
+            'ConversionToTIFFNotes.Run()
+            'ConvertNotesSlideViewToPDF.Run()
 
             '// =====================================================
             '// =====================================================

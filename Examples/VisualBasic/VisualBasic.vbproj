@@ -51,13 +51,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ProgrammersGuide\Presentations\AddCustomDocumentProperties.vb" />
+    <Compile Include="ProgrammersGuide\Presentations\ConversionToTIFFNotes.vb" />
     <Compile Include="ProgrammersGuide\Presentations\ConvertIndividualSlide.vb" />
     <Compile Include="ProgrammersGuide\Presentations\ConvertPDFwithCustomOptions.vb" />
     <Compile Include="ProgrammersGuide\Presentations\ConvertSlidesToPdfNotes.vb" />
     <Compile Include="ProgrammersGuide\Presentations\ConvertSpecificSlideToPDF.vb" />
     <Compile Include="ProgrammersGuide\Presentations\ConvertToPasswordProtectedPDF.vb" />
     <Compile Include="ProgrammersGuide\Presentations\ConvertToTIFFWithCustomImagePixelFormat.vb" />
-    <Compile Include="ProgrammersGuide\Presentations\CreateNewPresentation.vb" />
+    <Compile Include="ProgrammersGuide\Presentations\ConvetToSWF.vb" />
     <Compile Include="ProgrammersGuide\Presentations\ExportMediaFilestohtml.vb" />
     <Compile Include="ProgrammersGuide\Presentations\GetFileFormat.vb" />
     <Compile Include="ProgrammersGuide\Presentations\SaveAsPredefinedViewType.vb" />
@@ -229,6 +230,7 @@
     <None Include="ProgrammersGuide\Text\Data\ReplacingText.pptx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProgrammersGuide\Presentations\ConvertNotesSlideViewToPDF.vb" />
     <Content Include="ProgrammersGuide\Shapes\Data\AddAudioFrame.wav" />
     <Content Include="ProgrammersGuide\Shapes\Data\aspose-logo.jpg" />
     <Content Include="ProgrammersGuide\Shapes\Data\Tulips.jpg" />
