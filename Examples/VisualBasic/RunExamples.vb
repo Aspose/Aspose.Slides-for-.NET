@@ -70,9 +70,11 @@ Namespace VisualBasic
             'SaveToStream.Run()
             'SaveWithPassword.Run()
             'SaveAsPredefinedViewType.Run()
+
             'GetFileFormat.Run()
             'ExportMediaFilestohtml.Run()
             'AddCustomDocumentProperties.Run()
+            'CreateNewPresentation.Run()
 
             '// =====================================================
             '// =====================================================

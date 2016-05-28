@@ -48,10 +48,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ProgrammersGuide\Presentations\AddCustomDocumentProperties.cs" />
+    <Compile Include="ProgrammersGuide\Presentations\ConversionToTIFFNotes.cs" />
     <Compile Include="ProgrammersGuide\Presentations\ConvertIndividualSlide.cs" />
+    <Compile Include="ProgrammersGuide\Presentations\ConvertNotesSlideViewToPDF.cs" />
     <Compile Include="ProgrammersGuide\Presentations\ConvertSlidesToPdfNotes.cs" />
     <Compile Include="ProgrammersGuide\Presentations\ConvertPresentationToPasswordProtectedPDF.cs" />
     <Compile Include="ProgrammersGuide\Presentations\ConvertSpecificSlideToPDF.cs" />
+    <Compile Include="ProgrammersGuide\Presentations\ConvetToSWF.cs" />
+    <Compile Include="ProgrammersGuide\Presentations\CreateNewPresentation.cs" />
     <Compile Include="ProgrammersGuide\Presentations\CustomOptionsPDFConversion.cs" />
     <Compile Include="ProgrammersGuide\Presentations\ExportMediaFilestohtml.cs" />
     <Compile Include="ProgrammersGuide\Presentations\GetFileFormat.cs" />
@@ -169,6 +173,7 @@
     <None Include="ProgrammersGuide\Charts\Data\ExistingChart.pptx" />
     <None Include="ProgrammersGuide\Presentations\Data\AccessOpenDoc.odp" />
     <None Include="ProgrammersGuide\Presentations\Data\DemoFile.pptx" />
+    <None Include="ProgrammersGuide\Presentations\Data\NotesFile.pptx" />
     <None Include="ProgrammersGuide\Presentations\Data\PPTtoPPTX.ppt" />
     <None Include="ProgrammersGuide\Presentations\Data\Convert_HTML.pptx" />
     <None Include="ProgrammersGuide\Presentations\Data\Convert_Tiff_Custom.pptx" />
